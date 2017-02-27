@@ -3,7 +3,7 @@
 
 
 **Application Current Function**
-- The initial goal has been met, it was to build an application with an advanced user signup and login setup. (Sessions, Cookies, Account Activation, *forgot password?*, *change passwork*, *remember me?*)
+- The initial goal has been met, it was to build an application with an advanced user signup and login setup. (Sessions, Cookies, Account Activation, *forgot password?*, *change password*, *remember me?*)
 
 **Application Goals**
 - This applications purpose is still being defined. 
