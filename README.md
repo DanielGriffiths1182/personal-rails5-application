@@ -14,9 +14,8 @@
 - password_resets_controller.rb
 - sessions_controller.rb
 - users_controller.rb
-
-- user.rb *Model*
-- posts.rb *Model*
+- user.rb *model*
+- posts.rb *model*
 
 
 **Added to gemfile**
