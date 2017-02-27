@@ -1,5 +1,5 @@
-**Authored by: Daniel Griffiths**
-*start date: 2/25/17 (work in progress)*
+#**Authored by: Daniel Griffiths**
+- *start date: 2/25/17 (work in progress)*
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
