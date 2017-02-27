@@ -1,11 +1,12 @@
 #**Authored by: Daniel Griffiths**
 - *start date: 2/25/17 (work in progress)*
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+
+# Application Purpose
+- This applications purpose is still being defined. The initial goal was to build an application with an advanced user signup   and login setup. 
 
 
-- Added to gemfile
+# Added to gemfile
 - Rails 5
 - 'ruby  '                    '2.1.3'
 - 'bootstrap-sass',           '3.3.6'
