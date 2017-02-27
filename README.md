@@ -20,5 +20,6 @@
 
 
 **Deployment Notes**
-*Will deploy to Heroku, and provide link within repository description and README.md*
+- *Will deploy to Heroku, and provide link within repository description and README.md*
+- *Will not deploy to GitHub Pages*
 
