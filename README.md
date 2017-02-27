@@ -5,7 +5,10 @@
 **Application Current Function**
 - This applications purpose is still being defined. The initial goal has been met, it was to build an application with an advanced user signup and login setup. 
 
-
+**Application Goals**
+- Add static page with Nokogiri or HTTParty, be able to scrape/parse 3rd party information.
+- Create a more robust note taking functionality, be able to archive my daily TODO list.
+- Design a clean Bootstrap/scss/css with some functional JS.
 
 
 **Added to gemfile**
