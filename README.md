@@ -6,7 +6,7 @@
 - This applications purpose is still being defined. The initial goal was to build an application with an advanced user signup   and login setup. 
 
 
-# Added to gemfile
+**Added to gemfile**
 - Rails 5
 - 'ruby  '                    '2.1.3'
 - 'bootstrap-sass',           '3.3.6'
