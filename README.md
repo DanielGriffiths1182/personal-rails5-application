@@ -7,7 +7,7 @@
 
 
 **Application Components**
-- *CONTROLLERS*
+*CONTROLLERS*
 - account_activations_controller.rb
 - application_controller.rb
 - posts_controller.rb
