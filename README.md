@@ -15,6 +15,8 @@
 - sessions_controller.rb
 - users_controller.rb
 
+- user.rb *Model*
+- posts.rb *Model*
 
 
 **Added to gemfile**
