@@ -3,18 +3,17 @@
 
 
 **Application Purpose**
-- This applications purpose is still being defined. The initial goal was to build an application with an advanced user signup   and login setup. 
+- This applications purpose is still being defined. The initial goal was to build an application with an advanced user signup and login setup. 
 
 
 **Application Components**
-- *CONTROLLERS*
- account_activations_controller.rb
- application_controller.rb
- posts_controller.rb
- noko_books_controller.rb (home page, help-contact-about)
- password_resets_controller.rb
- sessions_controller.rb
- users_controller.rb
+- account_activations_controller.rb
+- application_controller.rb
+- posts_controller.rb
+- noko_books_controller.rb (home page, help-contact-about)
+- password_resets_controller.rb
+- sessions_controller.rb
+- users_controller.rb
 
 
 
