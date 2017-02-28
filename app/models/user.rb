@@ -8,9 +8,9 @@ class User < ApplicationRecord
                     format: { with: VALID_EMAIL_REGEX }
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
   has_many :microposts, dependent: :destroy
-  has_many :active_relationships, class_name:  "Relationship",
-                                foreign_key: "follower_id",
-                                dependent:   :destroy
+  has_many :active_relationships,  class_name:  "Relationship",
+                                   foreign_key: "follower_id",
+                                   dependent:   :destroy
   has_many :passive_relationships, class_name:  "Relationship",
                                    foreign_key: "followed_id",
                                    dependent:   :destroy
@@ -74,10 +74,15 @@ class User < ApplicationRecord
     UserMailer.password_reset(self).deliver_now
   end
   # Defines a proto-feed.
-  # See "Following users" for the full implementation.
+
+  # Returns a user's status feed.
   def feed
-    Micropost.where("user_id = ?", id)
+    following_ids = "SELECT followed_id FROM relationships
+                     WHERE  follower_id = :user_id"
+    Micropost.where("user_id IN (#{following_ids})
+                     OR user_id = :user_id", user_id: id)
   end
+
 
     # Follows a user.
   def follow(other_user)
