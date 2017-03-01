@@ -13,9 +13,14 @@
 - Design a clean Bootstrap/scss/css with some functional JS.
 - Succesfully implement an email verification step during the sign up process.
 
+**Rails version and components**
+- Rails 5
+- HTML.erb
+- CSS/Bootstrap
+- JavaScript
+- Ruby 2.1.3
 
 **Added to gemfile**
-- Rails 5
 - 'ruby  '                    '2.1.3'
 - 'bootstrap-sass',           '3.3.6'
 - 'faker',                    '1.6.6'
