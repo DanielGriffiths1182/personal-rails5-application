@@ -8,7 +8,7 @@
 **Application Goals**
 - This applications purpose is still being defined. 
 - Add page with Nokogiri or HTTParty, be able to scrape/parse 3rd party information.
-- Create a more robust note taking functionality, be able to archive my daily TODO list with the goal of writing queires that  
+- Create a more robust note taking functionality, be able to archive my daily TODO list with the goal of writing queires that 
  acces the archive for various analysis.
 - Design a clean Bootstrap/scss/css with some functional JS.
 
