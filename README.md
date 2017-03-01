@@ -11,6 +11,7 @@
 - Create a more robust note taking functionality, be able to archive my daily TODO list with the goal of writing queires that 
  acces the archive for various analysis.
 - Design a clean Bootstrap/scss/css with some functional JS.
+- Succesfully implement an email verification step during the sign up process.
 
 
 **Added to gemfile**
