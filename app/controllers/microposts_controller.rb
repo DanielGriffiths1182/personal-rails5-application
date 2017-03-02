@@ -32,7 +32,7 @@ class MicropostsController < ApplicationController
       redirect_to root_url
     else
       @feed_items = []
-      render 'static_pages/home'
+      render 'noko_books/home'
     end
   end
 
