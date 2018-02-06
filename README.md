@@ -1,4 +1,4 @@
-# **Authored by: Daniel Griffiths**
+# **Authored by: Daniel Griffiths - Advanced User Login and Sign up Rails Full Stack**
 *start date: 2/25/17 (work in progress)*
 
 
